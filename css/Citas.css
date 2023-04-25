@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.sidebar_uanl{
+    vertical-align: top;
+    width: 40px;
+    -ms-grid-row-span: "2";
+    background-color: #203691;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.sidebar_uanl :hover{
+    background-color: #4d61b0;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+#top_bar{
+    background-color: #f4f2ed;
+    padding: 0.1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;}
+.container1{
+    width: 750px;    
+    margin-left: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+}
+#container1 > div{
+    width: 50%;
+}
+/*.nav-redes{
+    margin: auto;
+    padding-left: 25%;
+    padding-bottom: 10px;
+}
+.nav-redes li{
+    width: 20%;float: left;
+    padding-left: 20px;
+    text-decoration: none;
+}*/
+#cabezera2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#cabecera2 > div{
+    width: 50%;
+}
+.img-Log-fapsi{
+    height: 100px;
+    width: 410px;
+    padding-left: 100px;
+}
+#img-face{
+    float: right;
+    height: 20px;
+}
+#img-insta{
+    float: right;
+    height: 20px;
+}
+#img-twit{
+    float: right;
+    height: 20px;
+}
+.search input[type=text]{
+    width:300px;
+    height:25px;
+    border-color:#000000;
+}     
+.search{
+    float:right;
+    margin: 30px;
+    padding-top: 20px;
+}
+#img-lupa{
+    height: 30px;
+}
+#img-perfil{
+    height: 30px;
+}
+
+
+body {
+    font-family: "Benton Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    color: #666666;
+}
+
+#navegador { 
+    background-color: #243A96; 
+    margin:auto;
+    padding: 1em; }
+#nav2{
+    margin: auto;
+    padding-left: 15%;
+    padding-bottom: 10px;
+}
+#navegador li { 
+    margin: 0px 5px;
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: #243A96; 
+    width: 10%;float: left;
+    text-align: center;
+    list-style-type: none; 
+    position: relative; }
+
+#subseccion1, #subseccion2, #subseccion3, #subseccion4
+             { position: absolute; top: 100%; left: 0px;
+             background-color: #243A96; font:normal 0.8em arial;
+             padding: 0.2em 0.5em ; display: none; }
+#navegador li:hover { background-color: #cfc9cb; }
+#navegador li a:link, #navegador li a:visited {
+           color: #fffefe; 
+           font-size: 13px;
+           text-decoration: none; }
+#navegador li a:hover, #navegador li a:active {
+           color:#000000 ; 
+           text-decoration: none; }
+.borrar { clear: both; }
+
+#Citas{
+    background-image: url(/img/Fachada.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+.cont-citas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#cont-citas-1{
+    width: 25%;
+}
+#cont-citas-2{
+    width: 100%;
+}
+#Cita-unit{
+    margin: 0 auto;
+    max-width: fit-content;
+    background-color: #fffefe;
+    border-color: #000000;
+    max-width: 200px;
+}
+#img-calendario{
+    height: 400px;
+}
+.Citas-main-top{
+    margin: 0 auto;
+    max-width: 830px;
+    background-color:#243A96;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+}
+.Citas-main{
+            margin: 0 auto;
+			max-width: 830px;
+			background-color: #d9d9d9;
+			padding: 20px;
+			text-align: center;
+			margin-top: 0px;
+			color: rgb(0, 0, 0)
+}
+.Citas-main h3{
+    font-size: 30px;
+}
+#img-botom{
+    height: 200px;
+    padding-left: 33%;
+}
+#Foot1{
+    background-color: #ffffff;
+    text-align: left;
+    color: #000;
+  }
