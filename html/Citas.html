@@ -29,6 +29,8 @@
         </div>
     </div>
 </div>
+</tbody>
+</table>
 <div id="cabezera2">
     <div>
         <img class="img-Log-fapsi" src="/img/Logo_Fapsi.JPG" alt="">
@@ -104,23 +106,78 @@
                 <Div>
                     <p>Elija en el calendario de la derecha la fecha que desea agendar su cita y la razón por la que la desea agendar</p>
                 </Div> 
-                <div id="Info">Escriba la razon de su cita y la fecha deseada</div>
-                <textarea id="texto" onkeypress="return limita(event, 100);" onkeyup="actualizaInfo(100)" rows="15" cols="10"></textarea>
+                <br>
+                <div>
+                    <input id="Cuadro-texto" type="text" id="texto" name="Texto-usuario" placeholder=""  required><br>
+                </div>
+                <br>
+                <div>
+                    <button id="Sub-boton">Submit</button>
+                </div>
             </Div>
             <br>
-            <Div class="cont-citas">
-                <div id="cont-citas-2">
-                    <img id="img-calendario" src="/img/Calendario_citas.JPG" alt="">
-                </div>
-                <div id="cont-citas-1">
-                    <Div id="Cita-unit">
-                        <p>23 de Junio Con Lucia</p>
-                    </Div>
-                    <div id="Cita-unit">
-                        <p>30 de Junio Con Lucia</p>
-                    </div>
-                </div>
-            </Div>
+            <br>
+            <div id="calendar">
+                <table>
+                     <thead>
+                         <tr>
+                         <th>Horario</th>
+                         <th>Lunes</th>
+                         <th>Martes</th>
+                         <th>Miércoles</th>
+                         <th>Jueves</th>
+                         <th>Viernes</th>
+                         <th>Sábado</th>
+                         <th>Domingo</th>
+                         </tr>
+                         </thead>
+                     <tbody>
+                         <tr>
+                             <th>9:00 - 10:00</th>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                         </tr>
+                         <tr>
+                             <th>10:00 - 11:00</th>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                         </tr>
+                         <tr>
+                             <th>11:00 - 12:00</th>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                             <td></td>
+                         </tr>
+                         <!-- más filas para cada hora del día -->
+                     </tbody>
+                 </table>    
+             </div>
+                 <br>
+                 <br>
+             <Div class="cont-citas">
+                 <div id="cont-citas-1">
+                     <Div id="Cita-unit">
+                         <p>23 de Junio Con Lucia</p>
+                     </Div>
+                     <div id="Cita-unit">
+                         <p>30 de Junio Con Lucia</p>
+                     </div>
+                 </div>
+             </Div>
     </div>
 </div>
 <br>
@@ -134,7 +191,5 @@
     <p>Pagina realizada por: Equipo 11</p>
     <br>
 </footer>
-</tbody>
-</table>
 </body>
 </html>

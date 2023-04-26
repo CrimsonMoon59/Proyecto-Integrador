@@ -187,12 +187,57 @@ body {
 .Citas-main h3{
     font-size: 30px;
 }
+#Cuadro-texto{
+    height: 70px;
+    width: 700px;
+    content: normal;
+}
+#Sub-boton{
+    height: 25px;
+    width: 70px;
+    background-color: #243A96;
+    color: #ffffff;
+    float: left;
+    margin-left: 700px;
+}
 #img-botom{
     height: 200px;
     padding-left: 33%;
 }
 #Foot1{
-    background-color: #ffffff;
-    text-align: left;
-    color: #000;
+    background-color:#243A96 ;
+    text-align: center;
+    color: #ffffff;
   }
+
+
+#calendar {
+font-family: Arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+padding-left: 60px;
+}
+
+    
+#calendar th {
+background-color: #0077cc;
+color: #fff;
+font-weight: normal;
+text-align: center;
+padding: 10px;}
+    
+#calendar td {
+border: 1px solid #ccc;
+padding: 10px;
+height: 50px;
+}
+ 
+#calendar td:hover {
+background-color: #f5f5f5;
+cursor: pointer;
+}
+
+#calendar td.active {
+background-color: #0077cc;
+color: #fff;
+}

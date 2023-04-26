@@ -158,7 +158,7 @@ table{
 }
 .Noticias-main-mid{
     margin: 0 auto;
-    max-width: 870px;
+    max-width: 830px;
     background-color: #d9d9d9;
     padding: 20px;
     text-align: center;
@@ -201,7 +201,7 @@ table{
     padding-left: 33%;
 }
 #Foot1{
-    background-color: #ffffff;
-    text-align: left;
-    color: #000;
+    background-color:#243A96 ;
+    text-align: center;
+    color: #ffffff;
   }
